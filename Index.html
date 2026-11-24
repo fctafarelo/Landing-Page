@@ -1,205 +1,1140 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fabiano César Tafarelo · Diretor de Negócios</title>
-<meta name="description" content="Fabiano César Tafarelo — mais de 20 anos em consultoria e integração de sistemas na América Latina. Estratégia, portfólio e pré-vendas em SAP, CRM, Low-Code e BPM.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#14202e; --ink-soft:#3b4a5c; --paper:#f6f3ee; --line:#ddd6cb;
-    --accent:#b5652b; --accent-dark:#8f4c1d; --white:#fff;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px}
-  a{color:inherit}
-  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabiano César Tafarelo — Business Director | General Manager | Head of Business &amp; Practice</title>
+  <meta name="description" content="Executive leadership in IT Services, Consulting, Cloud, AI & Systems Integration across Latin America. 26+ years scaling business units, leading teams of 30–150+ professionals, and delivering mission-critical transformations." />
 
-  header{position:sticky;top:0;background:rgba(246,243,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
-  header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
-  .mark{font-family:Fraunces,serif;font-weight:600;font-size:20px;text-decoration:none;letter-spacing:.5px}
-  .mark span{color:var(--accent)}
-  nav a{text-decoration:none;font-size:14px;font-weight:500;color:var(--ink-soft);margin-left:24px}
-  nav a:hover{color:var(--accent)}
-  @media(max-width:640px){nav a:not(.cta-link){display:none}}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
 
-  .hero{padding:96px 0 80px}
-  .eyebrow{font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
-  h1{font-family:Fraunces,serif;font-weight:400;font-size:clamp(40px,7vw,76px);line-height:1.05;margin:18px 0 24px;letter-spacing:-1px}
-  h1 em{font-style:normal;color:var(--accent)}
-  .lead{font-size:clamp(18px,2.2vw,21px);color:var(--ink-soft);max-width:640px}
-  .actions{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
-  .btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;transition:.2s}
-  .btn-primary{background:var(--ink);color:var(--white)}
-  .btn-primary:hover{background:var(--accent)}
-  .btn-ghost{border:1.5px solid var(--ink)}
-  .btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+  <style>
+    :root {
+      --bg: #f8f9fb;
+      --surface: #ffffff;
+      --surface-subtle: #f1f4f8;
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #526075;
+      --accent: #0f3d6e;
+      --accent-hover: #09294b;
+      --accent-soft: #e8eff7;
+      --border: #dde4ee;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+      --shadow-md: 0 10px 28px rgba(15, 23, 42, 0.06);
+      --container-max: 1120px;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+    }
 
-  .stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .stat{padding:32px 0}
-  .stat + .stat{padding-left:28px;border-left:1px solid var(--line)}
-  .stat b{display:block;font-family:Fraunces,serif;font-weight:400;font-size:44px;line-height:1}
-  .stat small{color:var(--ink-soft);font-size:14px}
-  @media(max-width:640px){.stats{grid-template-columns:1fr}.stat + .stat{padding-left:0;border-left:0;border-top:1px solid var(--line)}}
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
 
-  section{padding:88px 0}
-  h2{font-family:Fraunces,serif;font-weight:400;font-size:clamp(30px,4vw,42px);margin:12px 0 40px;letter-spacing:-.5px}
+    html {
+      scroll-behavior: smooth;
+      font-size: 18px; /* Comfortable reading base */
+    }
 
-  .areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-  .card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:28px}
-  .card h3{font-size:17px;margin-bottom:8px}
-  .card p{font-size:15px;color:var(--ink-soft)}
-  .card .num{font-family:Fraunces,serif;color:var(--accent);font-size:15px;margin-bottom:14px;display:block}
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      font-size: 1rem; /* 18px */
+      line-height: 1.65;
+      color: var(--text-primary);
+      background-color: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
 
-  .timeline{border-left:2px solid var(--line);margin-left:6px}
-  .job{position:relative;padding:0 0 44px 34px}
-  .job:last-child{padding-bottom:0}
-  .job::before{content:"";position:absolute;left:-8px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
-  .job .when{font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--accent)}
-  .job h3{font-family:Fraunces,serif;font-weight:600;font-size:24px;margin:4px 0}
-  .job p{color:var(--ink-soft);max-width:620px}
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-  .dark{background:var(--ink);color:var(--paper)}
-  .dark .eyebrow{color:#e09a64}
-  .two{display:grid;grid-template-columns:1fr 1fr;gap:56px}
-  @media(max-width:760px){.two{grid-template-columns:1fr;gap:40px}}
-  .list{list-style:none}
-  .list li{padding:16px 0;border-bottom:1px solid rgba(246,243,238,.15)}
-  .list li b{display:block;font-weight:600}
-  .list li span{font-size:15px;opacity:.75}
-  .lang{display:flex;justify-content:space-between}
-  .lang em{font-style:normal;font-size:14px;opacity:.75}
+    img {
+      max-width: 100%;
+      display: block;
+    }
 
-  .contact{text-align:center}
-  .contact h2{margin-bottom:16px}
-  .contact p{color:var(--ink-soft);max-width:520px;margin:0 auto}
-  .email{display:inline-block;margin:32px 0 8px;font-family:Fraunces,serif;font-size:clamp(22px,4vw,34px);text-decoration:none;border-bottom:2px solid var(--accent);padding-bottom:4px}
-  .email:hover{color:var(--accent)}
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 28px;
+    }
 
-  footer{border-top:1px solid var(--line);padding:28px 0;font-size:13px;color:var(--ink-soft)}
-  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
-</style>
+    /* Skip Link for Accessibility */
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      background: var(--accent);
+      color: #fff;
+      padding: 12px 18px;
+      z-index: 1000;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .skip-link:focus {
+      left: 16px;
+      top: 16px;
+      border-radius: var(--radius-sm);
+    }
+
+    /* Header & Navigation */
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(248, 249, 251, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 76px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .brand-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: -0.015em;
+      color: var(--text-primary);
+    }
+
+    .brand-role {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .nav-links a {
+      padding: 6px 2px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.18s ease, border-color 0.18s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      outline: none;
+    }
+
+    /* Language Switcher */
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 3px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .lang-btn {
+      border: 0;
+      background: transparent;
+      color: var(--text-secondary);
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+
+    .lang-btn.active {
+      background: var(--accent);
+      color: #ffffff;
+    }
+
+    .lang-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 72px 0 56px;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 7px 14px;
+      border-radius: 999px;
+      margin-bottom: 22px;
+    }
+
+    .hero h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 4.2vw, 3.25rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+      color: var(--text-primary);
+      font-weight: 600;
+      max-width: 24ch;
+    }
+
+    .hero-headline-sub {
+      font-size: clamp(1.15rem, 2vw, 1.4rem);
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0 0 22px;
+      line-height: 1.38;
+      max-width: 58ch;
+    }
+
+    .hero-summary {
+      font-size: 1.08rem;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin: 0 0 34px;
+      max-width: 68ch;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 22px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.2;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      border: 1.5px solid transparent;
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid rgba(15, 61, 110, 0.3);
+      outline-offset: 2px;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text-primary);
+      border-color: var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    /* KPI Strip */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px 26px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .kpi-value {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3vw, 2.35rem);
+      font-weight: 600;
+      color: var(--accent);
+      line-height: 1.15;
+      margin-bottom: 8px;
+    }
+
+    .kpi-title {
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+
+    .kpi-desc {
+      font-size: 0.9rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* Sections */
+    section.band {
+      padding: 72px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-header {
+      margin-bottom: 40px;
+      max-width: 68ch;
+    }
+
+    .section-kicker {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.75rem, 3vw, 2.3rem);
+      line-height: 1.2;
+      letter-spacing: -0.015em;
+      margin: 0 0 12px;
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .section-subtitle {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin: 0;
+      line-height: 1.65;
+    }
+
+    /* Leadership Theses */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .pillar-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 28px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .pillar-num {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 16px;
+    }
+
+    .pillar-card h3 {
+      font-size: 1.15rem;
+      line-height: 1.35;
+      margin: 0 0 12px;
+      color: var(--text-primary);
+      font-weight: 700;
+    }
+
+    .pillar-card p {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--text-secondary);
+    }
+
+    /* Executive Cases */
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .case-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .case-tag {
+      align-self: flex-start;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      padding: 5px 11px;
+      border-radius: 999px;
+    }
+
+    .case-card h3 {
+      font-size: 1.2rem;
+      line-height: 1.35;
+      margin: 0;
+      color: var(--text-primary);
+      font-weight: 700;
+    }
+
+    .case-row {
+      font-size: 0.94rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      margin: 0;
+    }
+
+    .case-label {
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .case-impact {
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--text-primary);
+    }
+
+    .case-impact strong {
+      color: var(--accent);
+    }
+
+    /* Track Record / Timeline */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .role-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 26px 30px;
+      box-shadow: var(--shadow-sm);
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .role-period {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .role-org {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+      font-weight: 500;
+    }
+
+    .role-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin: 0 0 8px;
+      line-height: 1.35;
+    }
+
+    .role-desc {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--text-secondary);
+    }
+
+    .credentials-bar {
+      margin-top: 24px;
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px 28px;
+      font-size: 0.94rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+
+    .credentials-bar strong {
+      color: var(--text-primary);
+    }
+
+    /* Contact / CTA Band */
+    .cta-box {
+      background: var(--accent);
+      color: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 48px 42px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .cta-box h2 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.7rem, 3vw, 2.25rem);
+      line-height: 1.2;
+      margin: 0 0 14px;
+      font-weight: 600;
+      max-width: 28ch;
+    }
+
+    .cta-box p {
+      margin: 0 0 28px;
+      font-size: 1rem;
+      line-height: 1.65;
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 62ch;
+    }
+
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .btn-light {
+      background: #ffffff;
+      color: var(--accent);
+      border-color: #ffffff;
+    }
+
+    .btn-light:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent-soft);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline-light {
+      background: transparent;
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.45);
+    }
+
+    .btn-outline-light:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: #ffffff;
+      transform: translateY(-1px);
+    }
+
+    /* Footer */
+    footer.site-footer {
+      padding: 36px 0 48px;
+      border-top: 1px solid var(--border);
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 960px) {
+      .kpi-grid,
+      .pillars-grid,
+      .cases-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .role-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      html {
+        font-size: 17px;
+      }
+
+      .container {
+        padding: 0 20px;
+      }
+
+      .hero {
+        padding: 48px 0 40px;
+      }
+
+      section.band {
+        padding: 52px 0;
+      }
+
+      .cta-box {
+        padding: 32px 24px;
+      }
+    }
+
+    /* Print Stylesheet for Clean PDF Export */
+    @media print {
+      html {
+        font-size: 11pt;
+      }
+
+      body {
+        background: #ffffff;
+        color: #000000;
+      }
+
+      header.site-header,
+      .hero-actions,
+      .cta-box,
+      .skip-link,
+      footer.site-footer {
+        display: none !important;
+      }
+
+      section.band,
+      .hero {
+        padding: 18pt 0;
+        border: none;
+      }
+
+      .kpi-card,
+      .pillar-card,
+      .case-card,
+      .role-item,
+      .credentials-bar {
+        box-shadow: none;
+        border: 1px solid #cbd5e1;
+        break-inside: avoid;
+      }
+    }
+  </style>
 </head>
 <body>
+  <a href="#main-content" class="skip-link" data-i18n="skip_link">Skip to main content</a>
 
-<header>
-  <div class="wrap">
-    <a href="#" class="mark">Fabiano <span>Tafarelo</span></a>
-    <nav>
-      <a href="#atuacao">Atuação</a>
-      <a href="#trajetoria">Trajetória</a>
-      <a href="#formacao">Formação</a>
-      <a href="#contato" class="cta-link">Contato</a>
-    </nav>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-name">Fabiano César Tafarelo</span>
+        <span class="brand-role" data-i18n="brand_role">Business Director · General Manager · Head of Practice</span>
+      </a>
 
-<main>
-  <div class="wrap hero">
-    <p class="eyebrow">Diretor de Negócios · Jundiaí, SP</p>
-    <h1>Estratégia e tecnologia que viram <em>negócio</em>.</h1>
-    <p class="lead">Mais de 20 anos em consultoria e integração de sistemas na América Latina, levando soluções de SAP, CRM, Low-Code e BPM da estratégia à proposta vencedora.</p>
-    <div class="actions">
-      <a href="#contato" class="btn btn-primary">Vamos conversar</a>
-      <a href="#trajetoria" class="btn btn-ghost">Ver trajetória</a>
-    </div>
-  </div>
+      <div class="nav-right">
+        <nav aria-label="Primary Navigation">
+          <ul class="nav-links">
+            <li><a href="#leadership" data-i18n="nav_leadership">Leadership</a></li>
+            <li><a href="#cases" data-i18n="nav_cases">Impact &amp; Cases</a></li>
+            <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </nav>
 
-  <div class="wrap">
-    <div class="stats">
-      <div class="stat"><b>20+</b><small>anos em consultoria e integração de sistemas</small></div>
-      <div class="stat"><b>3</b><small>empresas globais de tecnologia</small></div>
-      <div class="stat"><b>4</b><small>idiomas de trabalho</small></div>
-    </div>
-  </div>
-
-  <section id="atuacao">
-    <div class="wrap">
-      <p class="eyebrow">Atuação</p>
-      <h2>Onde eu gero valor</h2>
-      <div class="areas">
-        <div class="card"><span class="num">01</span><h3>Estratégia de negócios</h3><p>Direcionamento comercial e crescimento sustentável em mercados de tecnologia.</p></div>
-        <div class="card"><span class="num">02</span><h3>Gestão de portfólio</h3><p>Ofertas organizadas e posicionadas para o que o cliente realmente precisa.</p></div>
-        <div class="card"><span class="num">03</span><h3>Pré-vendas e propostas</h3><p>Condução de concorrências e bid management, da qualificação ao fechamento.</p></div>
-        <div class="card"><span class="num">04</span><h3>SAP, CRM, Low-Code e BPM</h3><p>Soluções corporativas que conectam processos, dados e pessoas.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="trajetoria" style="padding-top:0">
-    <div class="wrap">
-      <p class="eyebrow">Trajetória</p>
-      <h2>Experiência profissional</h2>
-      <div class="timeline">
-        <div class="job">
-          <span class="when">2026 — atual</span>
-          <h3>Semantix</h3>
-          <p>Diretor de Negócios, responsável por estratégia, portfólio e pré-vendas em SAP, CRM, Low-Code e BPM.</p>
-        </div>
-        <div class="job">
-          <span class="when">2011 — 2026</span>
-          <h3>Atos</h3>
-          <p>Quinze anos na empresa, chegando a Pre-Sales &amp; Bid Management Director.</p>
-        </div>
-        <div class="job">
-          <span class="when">2000 — 2011</span>
-          <h3>Siemens</h3>
-          <p>Onze anos dedicados a projetos e soluções SAP.</p>
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn active" id="btn-en" onclick="setLanguage('en')">EN</button>
+          <button type="button" class="lang-btn" id="btn-pt" onclick="setLanguage('pt')">PT</button>
         </div>
       </div>
     </div>
-  </section>
+  </header>
 
-  <section id="formacao" class="dark">
-    <div class="wrap two">
-      <div>
-        <p class="eyebrow">Formação</p>
-        <h2>Base acadêmica</h2>
-        <ul class="list">
-          <li><b>Executive Leadership Program</b><span>HEC Paris</span></li>
-          <li><b>Pós-graduação em Administração</b><span>FGV</span></li>
-          <li><b>Engenharia Elétrica</b><span>UNICAMP</span></li>
-        </ul>
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero-eyebrow" data-i18n="hero_eyebrow">Executive Leadership · IT Services, Cloud &amp; AI</div>
+        <h1 data-i18n="hero_title">Scaling Business Units &amp; High-Stakes Transformations</h1>
+        <p class="hero-headline-sub" data-i18n="hero_subtitle">
+          Business Director | General Manager | Head of Business &amp; Practice — Latin America
+        </p>
+        <p class="hero-summary" data-i18n="hero_summary">
+          Technology and consulting executive with 26+ years of experience driving commercial growth, structuring strategic offerings and partnerships, and leading complex systems integration, cloud, and enterprise transformation operations across Latin America.
+        </p>
+
+        <div class="hero-actions">
+          <!-- Replace href with your actual PDF URL when hosted -->
+          <a href="#contact" class="btn btn-primary" data-i18n="cta_cv">Download Executive CV (PDF)</a>
+          <a href="#cases" class="btn btn-secondary" data-i18n="cta_cases">Explore Impact &amp; Cases</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="cta_linkedin">LinkedIn Profile</a>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-value">26+</div>
+            <div class="kpi-title" data-i18n="kpi1_title">Years in IT &amp; Consulting</div>
+            <p class="kpi-desc" data-i18n="kpi1_desc">End-to-end leadership across enterprise sales, pre-sales, delivery, and practice management in LATAM.</p>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-value">30–150+</div>
+            <div class="kpi-title" data-i18n="kpi2_title">Professionals Led</div>
+            <p class="kpi-desc" data-i18n="kpi2_desc">Multidisciplinary teams spanning business development, solutions, bid governance, and service delivery.</p>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-value">40+</div>
+            <div class="kpi-title" data-i18n="kpi3_title">Mid &amp; Large Deals Closed</div>
+            <p class="kpi-desc" data-i18n="kpi3_desc">Including mission-critical enterprise applications, multi-platform AMS, and SAP migrations.</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <p class="eyebrow">Idiomas</p>
-        <h2>Comunicação global</h2>
-        <ul class="list">
-          <li class="lang"><b>Português</b><em>Nativo</em></li>
-          <li class="lang"><b>Inglês</b><em>Fluente</em></li>
-          <li class="lang"><b>Espanhol</b><em>Fluente</em></li>
-          <li class="lang"><b>Francês</b><em>Fluente</em></li>
-          <li class="lang"><b>Italiano</b><em>Básico</em></li>
-        </ul>
+    </section>
+
+    <!-- LEADERSHIP THESES -->
+    <section class="band" id="leadership">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker" data-i18n="lead_kicker">How I Operate</div>
+          <h2 class="section-title" data-i18n="lead_title">Executive Leadership Theses</h2>
+          <p class="section-subtitle" data-i18n="lead_subtitle">
+            Commercial discipline paired with operational rigor—turning technology capabilities and strategic alliances into sustainable revenue and predictable delivery.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <span class="pillar-num">01</span>
+            <h3 data-i18n="p1_title">Go-to-Market, Offerings &amp; Alliances</h3>
+            <p data-i18n="p1_desc">
+              Structuring high-value solutions, partnership ecosystems, and disciplined pre-sales/bid processes that translate Cloud, Data, AI, and Enterprise Platforms into winning proposals.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-num">02</span>
+            <h3 data-i18n="p2_title">Revenue Growth, Margin &amp; Delivery Health</h3>
+            <p data-i18n="p2_desc">
+              Balancing top-line expansion with margin protection, risk governance, and SLA excellence across complex implementations and multi-year Application Management Services (AMS).
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-num">03</span>
+            <h3 data-i18n="p3_title">Team Scaling &amp; Organizational Change</h3>
+            <p data-i18n="p3_desc">
+              Developing leaders, aligning commercial and technical stakeholders, and guiding teams smoothly through growth, restructuring, and M&amp;A transitions.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASES & RESULTS -->
+    <section class="band" id="cases">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker" data-i18n="cases_kicker">Proven Execution</div>
+          <h2 class="section-title" data-i18n="cases_title">Selected Projects &amp; Business Impact</h2>
+          <p class="section-subtitle" data-i18n="cases_subtitle">
+            Concrete examples of commercial leadership, business unit scale, complex transformations, and hands-on technical fluency.
+          </p>
+        </div>
+
+        <div class="cases-grid">
+          <article class="case-card">
+            <span class="case-tag" data-i18n="c1_tag">Systems Integration &amp; AMS</span>
+            <h3 data-i18n="c1_title">Scaling Enterprise Deals &amp; Delivery Operations</h3>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_context">Context:</span>
+              <span data-i18n="c1_context"> Competitive enterprise market in Latin America requiring stronger deal conversion, bid discipline, and reliable service execution.</span>
+            </p>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_action">Action:</span>
+              <span data-i18n="c1_action"> Directed Systems Integration and Pre-Sales / Bid Management operations across regional teams of 30 to 150 professionals.</span>
+            </p>
+            <div class="case-impact">
+              <strong data-i18n="lbl_impact">Impact:</strong>
+              <span data-i18n="c1_impact"> Closed 40+ mid-to-large contracts, including an Oil &amp; Gas applications contract, multi-platform AMS portfolios, and automotive SAP S/4HANA migrations.</span>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <span class="case-tag" data-i18n="c2_tag">Practices, Partnerships &amp; Offers</span>
+            <h3 data-i18n="c2_title">Structuring Consulting Lines &amp; Strategic Alliances</h3>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_context">Context:</span>
+              <span data-i18n="c2_context"> Expanding consulting, implementation, and support practices across GIS, SAP, and CRM Dynamics alongside modern data and AI capabilities.</span>
+            </p>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_action">Action:</span>
+              <span data-i18n="c2_action"> Shaped commercial offerings, process engineering workflows, and partner alliances to accelerate pipeline and solution positioning.</span>
+            </p>
+            <div class="case-impact">
+              <strong data-i18n="lbl_impact">Impact:</strong>
+              <span data-i18n="c2_impact"> Aligned practice portfolio, alliance motion, and delivery readiness for consultative enterprise opportunities.</span>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <span class="case-tag" data-i18n="c3_tag">M&amp;A &amp; Enterprise SAP</span>
+            <h3 data-i18n="c3_title">Mission-Critical SAP Carve-In / Carve-Out Programs</h3>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_context">Context:</span>
+              <span data-i18n="c3_context"> Corporate carve-ins and carve-outs demanding strict timelines, regulatory alignment, and zero operational disruption.</span>
+            </p>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_action">Action:</span>
+              <span data-i18n="c3_action"> Led proposal, project, and SAP consulting practice governance in Brazil across technical teams and executive stakeholders.</span>
+            </p>
+            <div class="case-impact">
+              <strong data-i18n="lbl_impact">Impact:</strong>
+              <span data-i18n="c3_impact"> Delivered 5 full Carve-In / Carve-Out initiatives while preserving business continuity and governance standards.</span>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <span class="case-tag" data-i18n="c4_tag">Builder Mindset &amp; Applied AI</span>
+            <h3 data-i18n="c4_title">Practical Architecture, Cloud &amp; AI Automation</h3>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_context">Context:</span>
+              <span data-i18n="c4_context"> Modern technology leadership benefits from direct familiarity with how cloud apps, APIs, databases, and AI workflows are built today.</span>
+            </p>
+            <p class="case-row">
+              <span class="case-label" data-i18n="lbl_action">Action:</span>
+              <span data-i18n="c4_action"> Designed and deployed real web applications, cloud databases, automated backup pipelines, and conversational AI webhook services.</span>
+            </p>
+            <div class="case-impact">
+              <strong data-i18n="lbl_impact">Impact:</strong>
+              <span data-i18n="c4_impact"> Bridges executive commercial strategy with real technical judgment on architecture, speed-to-value, and data security.</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="band" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker" data-i18n="exp_kicker">Career Trajectory</div>
+          <h2 class="section-title" data-i18n="exp_title">Executive Experience</h2>
+          <p class="section-subtitle" data-i18n="exp_subtitle">
+            Progressive leadership across multinational IT services, systems integration, and consulting organizations.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="role-item">
+            <div>
+              <div class="role-period">2026</div>
+              <div class="role-org">Semantix · Brazil</div>
+            </div>
+            <div>
+              <h3 class="role-title" data-i18n="r1_title">Director of Partnerships &amp; Offers / Business Line Director</h3>
+              <p class="role-desc" data-i18n="r1_desc">
+                Led consulting, implementation, and managed support lines across GIS, SAP, and CRM Dynamics, while structuring strategic partnerships and commercial offers.
+              </p>
+            </div>
+          </div>
+
+          <div class="role-item">
+            <div>
+              <div class="role-period">2011 – 2026</div>
+              <div class="role-org">Atos · Brazil / South America / LATAM</div>
+            </div>
+            <div>
+              <h3 class="role-title" data-i18n="r2_title">Business Unit Director (Systems Integration) · Pre-Sales &amp; Bid Management Director</h3>
+              <p class="role-desc" data-i18n="r2_desc">
+                Held senior commercial, pre-sales, bid, and business unit leadership roles across Brazil, South America, and LATAM, managing teams of 30 to 150 professionals and closing major enterprise and AMS engagements.
+              </p>
+            </div>
+          </div>
+
+          <div class="role-item">
+            <div>
+              <div class="role-period">2005 – 2011</div>
+              <div class="role-org">Siemens IT Solutions · Brazil</div>
+            </div>
+            <div>
+              <h3 class="role-title" data-i18n="r3_title">Head of SAP Consulting Practice · Portfolio &amp; Alliance Manager</h3>
+              <p class="role-desc" data-i18n="r3_desc">
+                Led the SAP consulting practice in Brazil, managed portfolio and alliances, and executed proposal, project, and SAP Carve-In / Carve-Out programs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="credentials-bar" data-i18n="credentials_text">
+          <strong>Foundation &amp; Global Readiness:</strong> Engineering background · 26+ years in Latin American enterprise IT &amp; consulting · Fluent in Portuguese and English, with working proficiency in Spanish.
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section class="band" id="contact">
+      <div class="container">
+        <div class="cta-box">
+          <h2 data-i18n="cta_box_title">Open to Business Director, GM &amp; Head of Practice Roles</h2>
+          <p data-i18n="cta_box_desc">
+            Available for executive leadership positions and strategic advisory across IT services, cloud, AI, consulting, and enterprise transformation in Brazil and Latin America.
+          </p>
+          <div class="cta-actions">
+            <!-- Replace mailto: with your real email address -->
+            <a href="mailto:contact@example.com?subject=Executive%20Opportunity%20%E2%80%94%20Fabiano%20Tafarelo" class="btn btn-light" data-i18n="btn_email">Direct Email</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light" data-i18n="btn_li">Connect on LinkedIn</a>
+            <button type="button" onclick="window.print()" class="btn btn-outline-light" data-i18n="btn_print">Save / Print Page (PDF)</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div data-i18n="footer_copy">© 2026 Fabiano César Tafarelo. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#top" data-i18n="footer_top">Back to top</a>
+        <a href="#cases" data-i18n="nav_cases">Impact &amp; Cases</a>
+        <a href="#experience" data-i18n="nav_experience">Experience</a>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section id="contato" class="contact">
-    <div class="wrap">
-      <p class="eyebrow">Contato</p>
-      <h2>Vamos conversar?</h2>
-      <p>Para projetos, parcerias ou uma boa conversa sobre tecnologia e negócios.</p>
-      <!-- Troque pelo e-mail do seu domínio, se escolher outro -->
-      <a class="email" href="mailto:fabiano@fabianotafarelo.com.br">fabiano@fabianotafarelo.com.br</a>
-      <div class="actions" style="justify-content:center">
-        <!-- Cole aqui o endereço do seu perfil no LinkedIn -->
-        <a href="https://www.linkedin.com/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-</main>
+  <script>
+    const translations = {
+      en: {
+        skip_link: "Skip to main content",
+        brand_role: "Business Director · General Manager · Head of Practice",
+        nav_leadership: "Leadership",
+        nav_cases: "Impact & Cases",
+        nav_experience: "Experience",
+        nav_contact: "Contact",
+        hero_eyebrow: "Executive Leadership · IT Services, Cloud & AI",
+        hero_title: "Scaling Business Units & High-Stakes Transformations",
+        hero_subtitle: "Business Director | General Manager | Head of Business & Practice — Latin America",
+        hero_summary: "Technology and consulting executive with 26+ years of experience driving commercial growth, structuring strategic offerings and partnerships, and leading complex systems integration, cloud, and enterprise transformation operations across Latin America.",
+        cta_cv: "Download Executive CV (PDF)",
+        cta_cases: "Explore Impact & Cases",
+        cta_linkedin: "LinkedIn Profile",
+        kpi1_title: "Years in IT & Consulting",
+        kpi1_desc: "End-to-end leadership across enterprise sales, pre-sales, delivery, and practice management in LATAM.",
+        kpi2_title: "Professionals Led",
+        kpi2_desc: "Multidisciplinary teams spanning business development, solutions, bid governance, and service delivery.",
+        kpi3_title: "Mid & Large Deals Closed",
+        kpi3_desc: "Including mission-critical enterprise applications, multi-platform AMS, and SAP migrations.",
+        lead_kicker: "How I Operate",
+        lead_title: "Executive Leadership Theses",
+        lead_subtitle: "Commercial discipline paired with operational rigor—turning technology capabilities and strategic alliances into sustainable revenue and predictable delivery.",
+        p1_title: "Go-to-Market, Offerings & Alliances",
+        p1_desc: "Structuring high-value solutions, partnership ecosystems, and disciplined pre-sales/bid processes that translate Cloud, Data, AI, and Enterprise Platforms into winning proposals.",
+        p2_title: "Revenue Growth, Margin & Delivery Health",
+        p2_desc: "Balancing top-line expansion with margin protection, risk governance, and SLA excellence across complex implementations and multi-year Application Management Services (AMS).",
+        p3_title: "Team Scaling & Organizational Change",
+        p3_desc: "Developing leaders, aligning commercial and technical stakeholders, and guiding teams smoothly through growth, restructuring, and M&A transitions.",
+        cases_kicker: "Proven Execution",
+        cases_title: "Selected Projects & Business Impact",
+        cases_subtitle: "Concrete examples of commercial leadership, business unit scale, complex transformations, and hands-on technical fluency.",
+        c1_tag: "Systems Integration & AMS",
+        c1_title: "Scaling Enterprise Deals & Delivery Operations",
+        lbl_context: "Context:",
+        lbl_action: "Action:",
+        lbl_impact: "Impact:",
+        c1_context: "Competitive enterprise market in Latin America requiring stronger deal conversion, bid discipline, and reliable service execution.",
+        c1_action: "Directed Systems Integration and Pre-Sales / Bid Management operations across regional teams of 30 to 150 professionals.",
+        c1_impact: "Closed 40+ mid-to-large contracts, including an Oil & Gas applications contract, multi-platform AMS portfolios, and automotive SAP S/4HANA migrations.",
+        c2_tag: "Practices, Partnerships & Offers",
+        c2_title: "Structuring Consulting Lines & Strategic Alliances",
+        c2_context: "Expanding consulting, implementation, and support practices across GIS, SAP, and CRM Dynamics alongside modern data and AI capabilities.",
+        c2_action: "Shaped commercial offerings, process engineering workflows, and partner alliances to accelerate pipeline and solution positioning.",
+        c2_impact: "Aligned practice portfolio, alliance motion, and delivery readiness for consultative enterprise opportunities.",
+        c3_tag: "M&A & Enterprise SAP",
+        c3_title: "Mission-Critical SAP Carve-In / Carve-Out Programs",
+        c3_context: "Corporate carve-ins and carve-outs demanding strict timelines, regulatory alignment, and zero operational disruption.",
+        c3_action: "Led proposal, project, and SAP consulting practice governance in Brazil across technical teams and executive stakeholders.",
+        c3_impact: "Delivered 5 full Carve-In / Carve-Out initiatives while preserving business continuity and governance standards.",
+        c4_tag: "Builder Mindset & Applied AI",
+        c4_title: "Practical Architecture, Cloud & AI Automation",
+        c4_context: "Modern technology leadership benefits from direct familiarity with how cloud apps, APIs, databases, and AI workflows are built today.",
+        c4_action: "Designed and deployed real web applications, cloud databases, automated backup pipelines, and conversational AI webhook services.",
+        c4_impact: "Bridges executive commercial strategy with real technical judgment on architecture, speed-to-value, and data security.",
+        exp_kicker: "Career Trajectory",
+        exp_title: "Executive Experience",
+        exp_subtitle: "Progressive leadership across multinational IT services, systems integration, and consulting organizations.",
+        r1_title: "Director of Partnerships & Offers / Business Line Director",
+        r1_desc: "Led consulting, implementation, and managed support lines across GIS, SAP, and CRM Dynamics, while structuring strategic partnerships and commercial offers.",
+        r2_title: "Business Unit Director (Systems Integration) · Pre-Sales & Bid Management Director",
+        r2_desc: "Held senior commercial, pre-sales, bid, and business unit leadership roles across Brazil, South America, and LATAM, managing teams of 30 to 150 professionals and closing major enterprise and AMS engagements.",
+        r3_title: "Head of SAP Consulting Practice · Portfolio & Alliance Manager",
+        r3_desc: "Led the SAP consulting practice in Brazil, managed portfolio and alliances, and executed proposal, project, and SAP Carve-In / Carve-Out programs.",
+        credentials_text: "<strong>Foundation &amp; Global Readiness:</strong> Engineering background · 26+ years in Latin American enterprise IT &amp; consulting · Fluent in Portuguese and English, with working proficiency in Spanish.",
+        cta_box_title: "Open to Business Director, GM & Head of Practice Roles",
+        cta_box_desc: "Available for executive leadership positions and strategic advisory across IT services, cloud, AI, consulting, and enterprise transformation in Brazil and Latin America.",
+        btn_email: "Direct Email",
+        btn_li: "Connect on LinkedIn",
+        btn_print: "Save / Print Page (PDF)",
+        footer_copy: "© 2026 Fabiano César Tafarelo. All rights reserved.",
+        footer_top: "Back to top"
+      },
+      pt: {
+        skip_link: "Ir para o conteúdo principal",
+        brand_role: "Business Director · General Manager · Head de Prática",
+        nav_leadership: "Liderança",
+        nav_cases: "Projetos & Impacto",
+        nav_experience: "Trajetória",
+        nav_contact: "Contato",
+        hero_eyebrow: "Liderança Executiva · Serviços de TI, Cloud & IA",
+        hero_title: "Escalando Unidades de Negócio & Transformações Críticas",
+        hero_subtitle: "Business Director | General Manager | Head de Negócios & Prática — América Latina",
+        hero_summary: "Executivo de tecnologia e consultoria com mais de 26 anos de experiência impulsionando crescimento comercial, estruturando ofertas e parcerias estratégicas e liderando operações complexas de integração de sistemas, cloud e transformação digital na América Latina.",
+        cta_cv: "Baixar CV Executivo (PDF)",
+        cta_cases: "Ver Projetos & Resultados",
+        cta_linkedin: "Perfil no LinkedIn",
+        kpi1_title: "Anos em TI & Consultoria",
+        kpi1_desc: "Liderança ponta a ponta em vendas enterprise, pré-vendas, entrega e gestão de práticas na LATAM.",
+        kpi2_title: "Profissionais Liderados",
+        kpi2_desc: "Equipes multidisciplinares em desenvolvimento de negócios, soluções, bids/pré-vendas e entrega.",
+        kpi3_title: "Contratos Fechados",
+        kpi3_desc: "Incluindo aplicações críticas, portfólios de AMS multiplataforma e migrações SAP.",
+        lead_kicker: "Como Eu Atuo",
+        lead_title: "Teses de Liderança Executiva",
+        lead_subtitle: "Disciplina comercial aliada a rigor operacional—transformando capacidades tecnológicas e alianças estratégicas em receita sustentável e entregas previsíveis.",
+        p1_title: "Go-to-Market, Ofertas & Alianças",
+        p1_desc: "Estruturação de soluções de alto valor, ecossistemas de parceiros e governança de pré-vendas/bids que convertem Cloud, Dados, IA e plataformas corporativas em propostas vencedoras.",
+        p2_title: "Crescimento, Margem & Governança de Entrega",
+        p2_desc: "Equilíbrio entre expansão de receita, proteção de margem, gestão de riscos e excelência de SLA em implementações complexas e contratos de AMS.",
+        p3_title: "Escala de Times & Transformação",
+        p3_desc: "Formação de lideranças, alinhamento entre áreas comerciais e técnicas e condução de equipes em ciclos de crescimento, reestruturação e M&A.",
+        cases_kicker: "Execução Comprovada",
+        cases_title: "Projetos Selecionados & Resultados",
+        cases_subtitle: "Exemplos concretos de liderança comercial, escala de unidades de negócio, programas críticos e visão técnica aplicada.",
+        c1_tag: "Integração de Sistemas & AMS",
+        c1_title: "Escala de Negócios Enterprise & Operações de Entrega",
+        lbl_context: "Cenário:",
+        lbl_action: "Atuação:",
+        lbl_impact: "Resultado:",
+        c1_context: "Mercado corporativo competitivo na América Latina exigindo maior conversão comercial, disciplina de propostas e previsibilidade na entrega.",
+        c1_action: "Liderança de operações de Integração de Sistemas e estruturas de Pré-Vendas / Bid Management com equipes regionais de 30 a 150 profissionais.",
+        c1_impact: "Fechamento de mais de 40 contratos de médio e grande porte, incluindo contrato crítico de aplicações em Óleo & Gás, portfólios AMS multiplataforma e migrações SAP S/4HANA no setor automotivo.",
+        c2_tag: "Práticas, Parcerias & Ofertas",
+        c2_title: "Estruturação de Linhas de Consultoria & Alianças",
+        c2_context: "Expansão de práticas de consultoria, implementação e sustentação em GIS, SAP e CRM Dynamics integradas a frentes modernas de dados e IA.",
+        c2_action: "Desenho de ofertas comerciais, engenharia de processos e parcerias estratégicas para acelerar geração de pipeline e posicionamento.",
+        c2_impact: "Alinhamento entre portfólio de práticas, modelo de alianças e prontidão de entrega para oportunidades consultivas.",
+        c3_tag: "M&A & SAP Corporativo",
+        c3_title: "Programas Críticos de SAP Carve-In / Carve-Out",
+        c3_context: "Processos de separação e integração societária exigindo prazos rígidos, conformidade e zero interrupção operacional.",
+        c3_action: "Gestão de propostas, projetos e prática de consultoria SAP no Brasil junto a equipes técnicas e executivos.",
+        c3_impact: "Entrega de 5 programas completos de Carve-In / Carve-Out com continuidade de negócios e governança.",
+        c4_tag: "Mentalidade Builder & IA Aplicada",
+        c4_title: "Arquitetura Prática, Cloud & Automação com IA",
+        c4_context: "A liderança executiva em tecnologia ganha força quando há domínio prático de como aplicações em nuvem, APIs, bancos de dados e fluxos de IA são construídos hoje.",
+        c4_action: "Desenho e implementação de aplicações web, bancos em nuvem, rotinas automatizadas de backup e serviços de webhook com IA conversacional.",
+        c4_impact: "Conexão entre estratégia comercial executiva e critério técnico real sobre arquitetura, velocidade de entrega e segurança de dados.",
+        exp_kicker: "Trajetória Profissional",
+        exp_title: "Experiência Executiva",
+        exp_subtitle: "Liderança progressiva em multinacionais de serviços de TI, integração de sistemas e consultoria.",
+        r1_title: "Director of Partnerships & Offers / Business Line Director",
+        r1_desc: "Liderança das frentes de consultoria, implementação e sustentação em GIS, SAP e CRM Dynamics, além da estruturação de parcerias e ofertas comerciais.",
+        r2_title: "Business Unit Director (Systems Integration) · Pre-Sales & Bid Management Director",
+        r2_desc: "Atuação executiva comercial, de pré-vendas, bids e unidade de negócios no Brasil, América do Sul e LATAM, liderando equipes de 30 a 150 profissionais e fechando grandes contratos enterprise e AMS.",
+        r3_title: "Head of SAP Consulting Practice · Portfolio & Alliance Manager",
+        r3_desc: "Liderança da prática de consultoria SAP no Brasil, gestão de portfólio e alianças e condução de propostas, projetos e iniciativas de SAP Carve-In / Carve-Out.",
+        credentials_text: "<strong>Formação &amp; Alcance Global:</strong> Formação em Engenharia · 26+ anos em TI corporativa e consultoria na América Latina · Fluente em Português e Inglês, com bom domínio de Espanhol.",
+        cta_box_title: "Disponível para Posições de Business Director, GM & Head",
+        cta_box_desc: "Aberto a posições de liderança executiva e conselhos consultivos em serviços de TI, cloud, IA, consultoria e transformação corporativa no Brasil e na América Latina.",
+        btn_email: "E-mail Direto",
+        btn_li: "Conectar no LinkedIn",
+        btn_print: "Salvar / Imprimir Página (PDF)",
+        footer_copy: "© 2026 Fabiano César Tafarelo. Todos os direitos reservados.",
+        footer_top: "Voltar ao topo"
+      }
+    };
 
-<footer>
-  <div class="wrap">
-    <span>© 2026 Fabiano César Tafarelo</span>
-    <span>Jundiaí · São Paulo · Brasil</span>
-  </div>
-</footer>
+    function setLanguage(lang) {
+      const dict = translations[lang] || translations.en;
+      document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
 
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) {
+          el.innerHTML = dict[key];
+        }
+      });
+
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-pt').classList.toggle('active', lang === 'pt');
+    }
+  </script>
 </body>
 </html>
